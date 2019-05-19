@@ -7,6 +7,7 @@
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
+    "mocha:test": "MOCHA_FILE=results/mocha-test-output.xml mocha test --reporter mocha-junit-reporter --reporter-options outputs=true cypress/integration/spec.js",
     "list-videos": "ls -l cypress/videos",
     "check-videos": "ok-file 'cypress/videos/*.mp4'",
     "set-status": "set-status"
@@ -16,6 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "3.3.0",
+    "mocha": "6.1.4",
+    "mocha-junit-reporter": "1.22.0",
     "ok-file": "1.4.0"
   },
   "repository": {

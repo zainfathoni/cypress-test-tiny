@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-05-19T21:13:41" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="page" timestamp="2019-05-19T21:13:41" tests="1" file="/Users/nvuser/Code/zainfathoni/cypress-test-tiny/cypress/integration/spec.js" failures="0" time="0">
+    <testcase name="page works" time="0" classname="works">
+      <system-out>consoleOutputs test</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
